@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from pydantic_settings import BaseSettings
 
 from src.beaniecocktails.models import Cocktail
-from src.beaniecocktails.routers import cocktail_router
+from src.beaniecocktails.routes import cocktail_router
 
 
 class Settings(BaseSettings):
